@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Coursera</string>
+    <string name="text_input">Введите текст</string>
+    <string name="btn_click_input">Нажать</string>
+</resources>

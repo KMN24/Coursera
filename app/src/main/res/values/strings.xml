@@ -2,4 +2,6 @@
     <string name="app_name">Coursera</string>
     <string name="text_input">Введите текст</string>
     <string name="btn_click_input">Нажать</string>
+    <string name="btn_chrome">Нажмите, чтобы перейти в Chrome</string>
+
 </resources>

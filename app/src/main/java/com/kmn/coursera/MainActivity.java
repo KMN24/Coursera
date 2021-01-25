@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showMessage(){
         if( mTextInput.getText().length() != 0 ){
-            //Toast.makeText(this, mTextInput.getText(), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, mTextInput.getText(), Toast.LENGTH_LONG).show();
             Intent startSecondIntent = new Intent(MainActivity.this, SecondActivity.class);
             startSecondIntent.putExtra(SecondActivity.DATA_TEXT, new Data(mTextInput.getText().toString()));
             startActivity(startSecondIntent);

@@ -3,5 +3,9 @@
     <string name="text_input">Введите текст</string>
     <string name="btn_click_input">Нажать</string>
     <string name="btn_chrome">Нажмите, чтобы перейти в Chrome</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="exit">Exit</string>
+    <string name="openMenu">Нажмите чтобы перейти в меню</string>
 
 </resources>

@@ -17,11 +17,20 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText mTextInput;
     private Button mBtnClick;
+    private Button mBtnOpenMenu;
 
     private View.OnClickListener mOnTextInputListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             showMessage();
+        }
+    };
+
+    private  View.OnClickListener mOnButtonMenuOpenListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent startMenuOpenActivity = new Intent(MainActivity.this, ThirdActivity.class);
+            startActivity(startMenuOpenActivity);
         }
     };
 
@@ -41,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
 
         mTextInput = findViewById(R.id.etInput);
         mBtnClick = findViewById(R.id.btn_click);
+        mBtnOpenMenu = findViewById(R.id.btn_openMenu);
 
         mBtnClick.setOnClickListener(mOnTextInputListener);
+        mBtnOpenMenu.setOnClickListener(mOnButtonMenuOpenListener);
     }
 }

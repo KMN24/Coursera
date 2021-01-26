@@ -16,7 +16,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_click"
@@ -24,5 +25,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/btn_click_input" />
+        <Button
+            android:id="@+id/btn_openMenu"
+            android:text="@string/openMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
     </LinearLayout>
 </LinearLayout>
